@@ -13,20 +13,19 @@ struct SettingsView: View {
     @State private var value: Float = 1.0
     
     // MARK: - FUNCTIONS
-    func determinatesValue() -> Binding<Float>{
+    func determineValue() -> Binding<Float>{
         if lineCount != 1{
             DispatchQueue.main.async {
                 value = Float(lineCount)
             }
         }
         
-        return Binding(get: {
+        return Binding {
             self.value
-        }, set: { newValue in
+        } set: { newValue in
             self.value = newValue
-            
             self.update()
-        })
+        }
     }
     
     func update() {
@@ -44,7 +43,7 @@ struct SettingsView: View {
                 .fontWeight(.bold)
             
             // SLIDER
-            Slider(value: determinatesValue(), in: 1...4, step: 1)
+            Slider(value: determineValue(), in: 1...4, step: 1)
             .tint(.accent)
 
         }
