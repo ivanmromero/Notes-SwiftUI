@@ -16,6 +16,7 @@
 		D2FF74C62B7817530088627C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF74C52B7817530088627C /* DetailView.swift */; };
 		D2FF74C82B781C470088627C /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF74C72B781C470088627C /* CreditsView.swift */; };
 		D2FF74CB2B781E8C0088627C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF74CA2B781E8C0088627C /* HeaderView.swift */; };
+		D2FF74CD2B78236A0088627C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF74CC2B78236A0088627C /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D2FF74C52B7817530088627C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D2FF74C72B781C470088627C /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		D2FF74CA2B781E8C0088627C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D2FF74CC2B78236A0088627C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				D2FF74B12B77FDAA0088627C /* ContentView.swift */,
 				D2FF74C52B7817530088627C /* DetailView.swift */,
 				D2FF74C72B781C470088627C /* CreditsView.swift */,
+				D2FF74CC2B78236A0088627C /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FF74CD2B78236A0088627C /* SettingsView.swift in Sources */,
 				D2FF74B22B77FDAA0088627C /* ContentView.swift in Sources */,
 				D2FF74CB2B781E8C0088627C /* HeaderView.swift in Sources */,
 				D2FF74C62B7817530088627C /* DetailView.swift in Sources */,
